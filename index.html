@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Add your CSS styles here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="date-selection">
+        <label for="menu-date">Select a date:</label>
+        <input type="date" id="menu-date">
+        <button onclick="loadMenu()">OK</button>
+    </div>
+    
+    <div id="menu-container" style="display:none;">
+        <h1>Menu for <span id="displayed-date"></span></h1>
+        <div class="menu-box" id="morning-box">
+            <h2>Morning</h2>
+            <p id="morning-menu">Loading...</p>
+        </div>
+        <div class="menu-box" id="lunch-box">
+            <h2>Lunch</h2>
+            <p id="lunch-menu">Loading...</p>
+        </div>
+        <div class="menu-box" id="dinner-box">
+            <h2>Dinner</h2>
+            <p id="dinner-menu">Loading...</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

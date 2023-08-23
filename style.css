@@ -1,0 +1,54 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#date-selection {
+    margin-top: 20px;
+}
+
+#menu-date {
+    font-size: 16px;
+    padding: 5px;
+}
+
+button {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#menu-container {
+    display: none;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.menu-box {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+}
+
